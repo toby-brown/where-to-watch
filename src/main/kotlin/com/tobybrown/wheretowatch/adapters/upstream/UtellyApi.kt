@@ -1,5 +1,7 @@
 package com.tobybrown.wheretowatch.adapters.upstream
 
+import com.tobybrown.wheretowatch.model.Availability
+import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Query
@@ -12,5 +14,5 @@ interface UtellyApi {
     @GET("/lookup")
     fun lookupAvailability(
             @Query("term") term: String,
-            @Query("country") country: String)
+            @Query("country") country: String): Call<Availability>
 }
