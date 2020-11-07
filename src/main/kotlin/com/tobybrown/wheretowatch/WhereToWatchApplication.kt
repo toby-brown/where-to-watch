@@ -1,6 +1,6 @@
 package com.tobybrown.wheretowatch
 
-import com.tobybrown.wheretowatch.adapters.upstream.UtellyApi
+import com.tobybrown.wheretowatch.adapters.UtellyApi
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean

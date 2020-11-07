@@ -1,4 +1,4 @@
-package com.tobybrown.wheretowatch.adapters.upstream
+package com.tobybrown.wheretowatch.adapters
 
 import com.tobybrown.wheretowatch.model.Availability
 import retrofit2.Call
